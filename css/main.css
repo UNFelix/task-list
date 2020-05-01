@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(56, 164, 184);
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  margin-top: 3px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(56, 164, 184);
+  display: block;
+  position: relative;
+}
+
+ul li:hover {
+  background-color: #eee;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+
+.close:hover {
+  background: #bbb;
+}
+
+button {
+  padding: 8px 13px;
+  font-size: 18px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.input {
+  border-radius: 7px;
+  padding: 10px 10%;
+  font-size: 18px;
+}
